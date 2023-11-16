@@ -1,11 +1,10 @@
 const { createApp } = Vue
 
-  createApp({
+createApp({
     data() {
-      return {
-        message: 'Messaggio di prova!',
-        image: 
-      }
+      	return {
+        	message: 'Messaggio di prova!',
+        	image: 'https://picsum.photos/1000/400'
+      	}
     }
-
 }).mount('#app')
